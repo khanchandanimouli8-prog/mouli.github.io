@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GitHub Pages Working</title>
+  <meta charset="UTF-8">
+  <title>SoleStreet | Shoe Brand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fff;
+      width: 240px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    button {
+      background: #111;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; padding:60px;">
-  <h1>✅ GitHub Pages is WORKING</h1>
-  <p>This page confirms your site is live.</p>
+
+<body>
+
+<header>
+  <h1>SoleStreet</h1>
+  <p>Step Into Style. Walk With Confidence.</p>
+</header>
+
+<section>
+  <h2>Our Best Sellers</h2>
+
+  <div class="products">
+    <div class="card">
+      <h3>Urban Runner</h3>
+      <p class="price">₹2,999</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <h3>Street Classic</h3>
+      <p class="price">₹3,499</p>
+      <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+      <h3>Air Flex</h3>
+      <p class="price">₹4,199</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 SoleStreet. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
-
